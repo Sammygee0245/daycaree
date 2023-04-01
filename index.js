@@ -8,9 +8,11 @@ let showNav = false;
 function displayNav() {
   if (!showNav) {
     ul2.style.top = 141 + "px";
+    ul2.style.opacity = 1;
     book.style.display = "flex";
     showNav = !showNav;
   } else {
+    ul2.style.opacity = 0;
     ul2.style.top = -1000 + "px";
     book.style.display = "none";
     showNav = !showNav;
