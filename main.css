@@ -594,8 +594,8 @@ hr {
 
 /* footet */
 .footer {
-  background-color: #f5f5f5;
-  color: #333333;
+  background-color: #010719;
+  color: #ffffff;
   padding: 50px 0;
   font-size: 14px;
   line-height: 1.8;
@@ -632,7 +632,7 @@ hr {
 .quick-links li a,
 .our-services li a,
 .contact-us li a {
-  color: #333333;
+  color: #ffffff;
   text-decoration: none;
 }
 
