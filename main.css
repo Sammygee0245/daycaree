@@ -91,14 +91,14 @@ html {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  background-color: rgb(227, 221, 212);
+  background-color: rgb(255, 255, 255);
   z-index: 10;
   padding: 0 20px;
 }
 
 .logo {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
 }
 
@@ -435,7 +435,13 @@ hr {
   justify-content: space-around;
 }
 
-.fa-user::before {
+.fa-user::before,
+.fa-users::before,
+.fa-hourglass-end::before,
+.fa-credit-card-alt::before,
+.fa-check-circle::before,
+.fa-handshake:before,
+.fa-diamond::before {
   content: "";
   width: 80px;
   height: 80px;
