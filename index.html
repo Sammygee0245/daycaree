@@ -7,21 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MIGHTY LINK ALUMINIUM SYSTEM</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="main.css" />
-
     <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
-
-    <!-- <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    /> -->
   </head>
   <body>
     <!-- full navigation -->
@@ -134,7 +122,12 @@
     </nav>
 
     <div class="container">
-      <div class="overlay">
+      <div
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        class="overlay"
+      >
         <p class="greet">Welcome to</p>
         <p class="intro">MIGHTY</p>
         <p class="intro">LINK</p>
@@ -342,8 +335,11 @@
     <!-- 6page -->
     <div class="page-two">
       <div class="top">
-        <p class="pthp">Glass repair & replacement</p>
-        <p>We repair business, home windows glass, auto glass, shop glass</p>
+        <p class="pthp">Our recent work portfolio</p>
+        <p>
+          We have dedicated some time to presenting to you some of our recent
+          projects that we have completed.
+        </p>
         <hr />
       </div>
       <div class="down-six">
@@ -443,14 +439,14 @@
       </div>
     </footer>
 
-    <div class="rights"><h4>Sammygee</h4></div>
+    <div class="ft">
+      <p>&copy; 2023 Mighty Link Aluminium System.</p>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="index.js"></script>
-    <!-- <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script> -->
   </body>
 </html>
