@@ -449,7 +449,10 @@ hr {
 .fa-credit-card-alt::before,
 .fa-check-circle::before,
 .fa-handshake:before,
-.fa-diamond::before {
+.fa-diamond::before,
+.fa-truck::before,
+.fa-parachute-box::before,
+.fa-satellite-dish::before {
   content: "";
   width: 80px;
   height: 80px;
