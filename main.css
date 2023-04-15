@@ -669,49 +669,56 @@ hr {
 
 /* About */
 
-.abul {
+.mmaim {
   width: 100vw;
-  height: 400px;
-  padding: 40px 0 0 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 190px;
-}
-
-.llo {
-  width: 100%;
-  height: 90%;
-  object-fit: contain;
-}
-
-.hero {
-  background-image: url("https://images.unsplash.com/photo-1549036024-6e29e6c38ae6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
-  background-size: cover;
+  height: 100%;
+  background-image: url("pics/car2.webp");
   background-position: center;
-  height: 300px;
+  background-size: cover;
+  background-color: rgb(205, 0, 0);
+  background-blend-mode: multiply;
+  margin-top: 190px;
+  padding: 20px;
+}
+
+.abtfp {
+  width: 100vw;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  margin-top: 140px;
 }
 
-.hero h1 {
-  color: #fff;
-  font-size: 48px;
+.batt {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.content {
-  padding: 40px;
+.abtus {
+  font-family: sans-serif;
+  font-size: 2rem;
 }
 
-.content h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
+.wwd {
+  padding: 20px;
+  width: 100%;
+  height: 50%;
+  display: grid;
+  grid-template-columns: repeat(4, 210px);
+  justify-content: center;
 }
 
-.content p {
-  font-size: 18px;
-  line-height: 1.5;
+.ser {
+  width: 200px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 14px;
   margin-bottom: 30px;
 }
 
@@ -720,4 +727,32 @@ hr {
   color: #fff;
   padding: 20px;
   text-align: center;
+}
+
+@media (max-width: 852px) {
+  .wwd {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 210px);
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .wwd {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    justify-content: center;
+  }
+
+  .ser {
+    width: 90%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    margin-bottom: 30px;
+  }
 }
