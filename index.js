@@ -1,3 +1,5 @@
+/** @format */
+
 // navigation dropdown effect
 let bars = document.querySelector("#bars");
 let ul2 = document.querySelector("#ul2");
@@ -20,36 +22,3 @@ function displayNav() {
 }
 
 bars.addEventListener("click", displayNav);
-
-// gsddsgds?
-const swiper = new Swiper(".swiper", {
-  // Optional parameters
-  direction: "horizontal",
-  loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
-
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
-
-  effect: "fade",
-  fadeEffect: {
-    crossFade: true,
-  },
-});
