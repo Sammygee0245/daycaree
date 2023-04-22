@@ -16,6 +16,17 @@ html {
 }
 /* HOME STYLES */
 
+.loader-div {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+}
+
 .full-nav {
   width: 100vw;
   height: 140px;
