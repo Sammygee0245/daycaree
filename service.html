@@ -20,6 +20,9 @@
     /> -->
   </head>
   <body>
+    <div class="loader-div">
+      <img style="width:100vw; height:100vh; object-fit: contain;" src="pics/big head.gif" alt="">
+    </div>
     <!-- full navigation -->
     <nav class="full-nav">
       <!-- Top navigation -->
@@ -224,4 +227,9 @@
     </div>
   </body>
   <script src="index.js"></script>
+  <script>
+    window.addEventListener("load",()=>{
+      document.querySelector(".loader-div").style.display = "none"
+    })
+  </script>
 </html>
