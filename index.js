@@ -3,7 +3,8 @@
 // navigation dropdown effect
 let bars = document.querySelector("#bars");
 let ul2 = document.querySelector("#ul2");
-let book = document.querySelector("#book");
+let book = document.querySelector(".book");
+let book1 = document.querySelector(".book1");
 
 let showNav = false;
 
@@ -22,3 +23,19 @@ function displayNav() {
 }
 
 bars.addEventListener("click", displayNav);
+
+//Book Appointment
+
+let appPage = document.querySelector("#appoint");
+let cancel = document.querySelector(".cancel");
+
+book.addEventListener("click", () => {
+  appPage.style.display = "flex";
+});
+book1.addEventListener("click", () => {
+  appPage.style.display = "flex";
+});
+
+cancel.addEventListener("click", () => {
+  appPage.style.display = "none";
+});
