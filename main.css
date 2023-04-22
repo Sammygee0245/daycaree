@@ -924,6 +924,9 @@ button:hover {
   width: 30%;
   height: 100%;
   margin: 0 30px;
+  background-image: url("pics/broken_glass_PNG40.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .rest {
@@ -933,15 +936,15 @@ button:hover {
 .cpic {
   width: 100%;
   height: 80%;
-  border: 1px solid transparent;
-  border-top-color: #00001b;
+  /* border: 1px solid transparent;
+  border-top-color: #00001b; */
   display: flex;
   flex-direction: column;
 }
 
 .form {
   width: 100%;
-  height: 95%;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -980,7 +983,7 @@ button:hover {
   }
   .real-contact {
     width: 95%;
-    height: 70%;
+    height: 100%;
     display: flex;
     flex-direction: column;
   }
