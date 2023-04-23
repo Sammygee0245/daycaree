@@ -235,7 +235,7 @@ html {
     align-items: flex-start;
     padding: 10px;
     justify-content: space-between;
-    background-color: rgb(202, 182, 202);
+    background-color: rgb(255, 254, 255);
     color: #fff;
     position: absolute;
     top: -1000px;
@@ -252,7 +252,7 @@ html {
   position: reltive;
   padding: 100px 0 0 0;
   scroll-snap-align: start;
-  background-image: url("pics/p1.jpg");
+  background: url("pics/ho3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -607,9 +607,10 @@ hr {
   height: 400px;
   background-color: blue;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   position: relative;
+  flex-direction: column;
 }
 
 .card::before {
@@ -621,6 +622,20 @@ hr {
   width: 90%;
   height: 90%;
   border: 6px dashed gold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.offer {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 20px;
 }
 
 @media (max-width: 1057px) {

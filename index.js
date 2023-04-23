@@ -7,17 +7,18 @@ let book = document.querySelector(".book");
 let book1 = document.querySelector(".book1");
 
 let showNav = false;
+book.style.display = "none";
 
 function displayNav() {
   if (!showNav) {
     ul2.style.top = 141 + "px";
     ul2.style.opacity = 1;
-    book.style.display = "flex";
+
     showNav = !showNav;
   } else {
     ul2.style.opacity = 0;
     ul2.style.top = -1000 + "px";
-    book.style.display = "none";
+
     showNav = !showNav;
   }
 }
@@ -37,5 +38,6 @@ book1.addEventListener("click", () => {
 });
 
 cancel.addEventListener("click", () => {
+  console.log("cancel");
   appPage.style.display = "none";
 });
