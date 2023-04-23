@@ -510,7 +510,9 @@ hr {
 .fa-diamond::before,
 .fa-truck::before,
 .fa-parachute-box::before,
-.fa-satellite-dish::before {
+.fa-satellite-dish::before,
+.fa-thumbs-up::before,
+.fa-cc-mastercard::before {
   content: "";
   width: 80px;
   height: 80px;
