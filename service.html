@@ -134,116 +134,30 @@
       </ul>
       <div id="appoint" class="appointm">
         <div class="cancel"><i class="fas fa-x"></i></div>
-        <form class="appbook" action="#">
+        <form class="appbook" action="https://formspree.io/f/mayzalqj"
+        method="POST">
           <input class="oheneba" name="FullName" type="text" placeholder="Fullname" required>
           <input class="oheneba" name="Phone" type="number" placeholder="Tele" required>
           <input class="oheneba" name="Email" type="email" placeholder="Email" required>
           <input class="oheneba" name="datetime" type="datetime" placeholder="day_month_year">
 
-          <textarea style="padding: 10px;outline: none;" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+          <textarea style="padding: 10px;outline: none;background-color: transparent;color: #fff;" name="Appointment message" id="" cols="30" rows="10" placeholder="Message"></textarea>
           <button>Submit Appointment</button>
         
         </form>
       </div>
     </nav>
 
-    <!-- <header>
-      <h1>Glass & Co.</h1>
-      <h2>Your Trusted Glazing Experts</h2>
-    </header> -->
+    
 
-    <main class="gl-shelf">
-      <section class="service">
-        <img src="pics/ho1.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/ho3.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/ho4.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/1 (5).jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/gl20.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/gl17.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/gl19.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/gl18.jpg" alt="Glass Repair" />
-      </section>
-
-    <section class="service">
-        <img src="pics/gl16.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/gl15.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/gl14.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/gl13.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/gl12.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/gl11.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/gl10.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/gl9.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/gl8.jpg" alt="Glass Repair" />
-      </section>
-
-    <section class="service">
-        <img src="pics/gl7.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/gl6.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/gl5.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/gl4.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/gl2.jpg" alt="Glass Repair" />
-      </section>
-
-      <section class="service">
-        <img src="pics/gl1.jpg" alt="Glass Repair" />
-      </section>
+    <main  class="gl-shelf">
+      <div class="g-board">
+        <p style="color:#fff;font-size:30px;text-shadow: black 3px 0 ,black -3px 0;font-weight: 600;">The Premier Online </p>
+        <p style="color:#fff;font-size:30px;text-shadow: black 3px 0 ,black -3px 0;font-weight: 600;"> Gallary</p>
+        <br>
+        <button id="book" class="book1">Book An Appointment</button>
+      </div>
+      <div id="gl-shelf" class="prj-shelf"></div>
     </main>
 
    <!-- footer -->
@@ -303,6 +217,7 @@
     </div>
   </body>
   <script src="index.js"></script>
+  <script src="Data.js"></script>
   <script>
     window.addEventListener("load",()=>{
       document.querySelector(".loader-div").style.display = "none"
